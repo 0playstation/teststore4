@@ -188,7 +188,7 @@ opacity:0.7;
 
     </style>
 <meta charset="utf-8">
-<title>TEST PS4AR.COM 1.00</title>
+<title>TEST PS4AR.COM Store.js 1.00</title>
 
 <script>
 function LoaderPL() {
@@ -295,9 +295,9 @@ var payload_buffer = chain.syscall(477, 0, 0x300000, 7, 0x1002, -1, 0);
 }
 
 function installthestore(){
-    progress.innerHTML="Loading the TEST PS4AR.COM Store Installer... please wait";
-    LoadedMSG="The PS4AR.COM Store Installer has Loaded";
-    PLfile = "store-installer.bin";
+    progress.innerHTML="Loading the TEST PS4AR.COM Store.js Installer... please wait";
+    LoadedMSG="The PS4AR.COM Store.js Installer has Loaded";
+    PLfile = "payload.js";
     out_jb = "AllPL";
      if(sessionStorage.Exploit!="yes"){setTimeout(poc, 500);} else {LoaderPL();}
 }
